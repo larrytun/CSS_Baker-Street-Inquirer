@@ -1,15 +1,70 @@
-.text-content p {
-  font-size: 18px;
-  font-weight: lighter;
+body {
+  background-color: #E9E9E9;
 }
 
-.text-content h1 {
-  font-size: 2em;
+h2 {
+  background: url("../img/ornament.png") no-repeat 0 50%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: lighter;
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 11px;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  margin-bottom: -15px;
+  margin-top: 2px;
+}
+
+.person {
+  text-align: center;
+  margin-left: 2.5%;
+  margin-bottom: 3px;
+  float: left;
+  max-width: 45%;
+  color: #890101;
+  transition: .3s;
+}
+
+.person:hover {
+  color: red;
+}
+
+.footer p {
+  font-size: 13px;
   text-align: center;
 }
 
+.footer a {
+  text-decoration: none;
+  color: #890101;
+}
+
+.text-content p {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: 'Merriweather', serif;
+  line-height: 24px;
+}
+
+.text-content h1 {
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Merriweather', serif;
+}
+
 .text-content {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .nav {
@@ -28,7 +83,6 @@
 
 .nav li {
   float: left;
-  min-width: 20%;
   text-align: center;
   padding-top: 10px;
   line-height: 10px;
@@ -52,10 +106,27 @@
   width: 100%;
   clear: both;
   padding-top: 20px;
+  margin-top: 50px;
 
 }
 
 .logo {
   display: block;
   margin: 0 auto;
+}
+
+.grey-background {
+  background: url("../img/grey-box.png");
+  padding: 0 1em;
+}
+
+.images img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.footer {
+  background: url("../img/ornament.png") 50% 0 repeat-x;
+  clear: both;
+  padding: 40px 0 20px;
 }
