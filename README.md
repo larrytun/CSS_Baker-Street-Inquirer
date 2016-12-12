@@ -1,7 +1,5 @@
 # _Think With Google Rebuild_
 
-![screenshot of page](img/screen-shot.png)
-
 #### _Second CSS project for Epicodus, 11.28.2016_
 
 #### By _**Larry Dean Tunseth and Garrett Price**_
